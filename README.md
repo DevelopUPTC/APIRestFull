@@ -11,5 +11,5 @@ Proyecto ejemplo para el desarrolo de una API RestFull.
 Para instalar las dependencias:
 
 ```bash
-npm init
+npm install
 ```
