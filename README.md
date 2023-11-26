@@ -6,7 +6,9 @@ Proyecto ejemplo para el desarrolo de una API RestFull.
 
 - NodeJS
 - Express
-- Mongoose
+- [Mongoose](https://mongoosejs.com/)
+- [Schemas de mongoose](https://mongoosejs.com/docs/guide.html)
+
 
 Para instalar las dependencias:
 

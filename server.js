@@ -2,6 +2,9 @@ const express = require('express')
 
 const app = express()
 
+//connect-DB
+require('./drivers/connect-db')
+
 //setters
 app.set('PORT',process.env.PORT || 3000 )
 
