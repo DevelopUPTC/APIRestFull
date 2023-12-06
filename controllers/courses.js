@@ -14,7 +14,7 @@ module.exports = {
     findById : async(req,res) => {
         const {id} = req.params
         try {
-            const data = await Course.findById(id)
+            const data = await Course.findById(id).populate('students')
             
             return res.status(200).json({"state":true,"data":data})
         } catch (error) {
